@@ -1,0 +1,16 @@
+docs_dir: docs/book
+site_dir: docs/html
+extra:
+  project: Packages
+  current_version: v3
+  versions:
+    - v3
+nav:
+  - Home: index.md
+  - v3:
+      - "Adding The Config Provider": v3/addingConfigProvider.md
+site_name: dot-log
+site_description: "DotKernel log component extending and customizing"
+repo_url: "https://github.com/dotkernel/dot-log"
+plugins:
+  - search

@@ -8,7 +8,21 @@ extra:
 nav:
   - Home: index.md
   - v3:
-      - "Adding The Config Provider": v3/addingConfigProvider.md
+      - Installation: v3/installation.md
+      - Configuration: v3/configuration.md
+      - Usage: v3/usage.md
+      - Examples: v3/examples.md
+      - Reference:
+          - "Inject using a factory": v3/usage/factory.md
+          - "Inject using dot-annotated-services": v3/usage/injection.md
+      - Examples:
+          - "Authentication Extension": v3/examples/example-authentication-ext.md
+          - "Authentication Extension": v3/examples/example-authorization-ext.md
+          - "Date Extension": v3/examples/example-date-ext.md
+          - "Flash Messenger Extension": v3/examples/example-flash-messenger-ext.md
+          - "Form Elements Extension": v3/examples/example-form-elements-ext.md
+          - "Navigation Extension": v3/examples/example-navigation-ext.md
+          - "Translation Extension": v3/examples/example-translation-ext.md
 site_name: dot-log
 site_description: "DotKernel log component extending and customizing"
 repo_url: "https://github.com/dotkernel/dot-log"

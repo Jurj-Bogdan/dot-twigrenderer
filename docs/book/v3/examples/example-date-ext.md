@@ -1,4 +1,4 @@
-# Using the date extension - not implemented
+# Using the date extension
 
 Dot-twigrenderer extends Twig with a function that calculates the difference between two dates. The function converts dates to a time ago string like Facebook and Twitter has. If `null` is passed as the second or third parameters, the current time will be used.
 

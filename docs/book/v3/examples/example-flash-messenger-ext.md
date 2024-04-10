@@ -1,4 +1,4 @@
-# Using the flash messenger extension - not fully implemented
+# Using the flash messenger extension
 
 Dot-twigrenderer extends Twig with functions that use functionality from [dotkernel/dot-flashMessenger](https://github.com/dotkernel/dot-flashMessenger) to list messages or partial messages.
 

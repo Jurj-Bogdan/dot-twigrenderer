@@ -1,4 +1,4 @@
-# Using the form elements extension
+# Using the navigation extension
 
 Dot-twigrenderer extends Twig with functions that use functionality from [dotkernel/dot-navigation](https://github.com/dotkernel/dot-navigation) to easily parse a menu and to display escaped HTML inside a template.
 

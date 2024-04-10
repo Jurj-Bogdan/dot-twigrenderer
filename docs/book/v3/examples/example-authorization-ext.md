@@ -1,4 +1,4 @@
-# Using the authentication extension
+# Using the authorization extension
 
 Dot-twigrenderer extends Twig with a function that uses functionality from [dotkernel/dot-authorization](https://github.com/dotkernel/dot-authorization) to check if a logged user is authorized to access a particular resource.
 

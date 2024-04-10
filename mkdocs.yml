@@ -23,8 +23,8 @@ nav:
           - "Form Elements Extension": v3/examples/example-form-elements-ext.md
           - "Navigation Extension": v3/examples/example-navigation-ext.md
           - "Translation Extension": v3/examples/example-translation-ext.md
-site_name: dot-log
-site_description: "DotKernel log component extending and customizing"
-repo_url: "https://github.com/dotkernel/dot-log"
+site_name: dot-twigrenderer
+site_description: "DotKernel component providing twig extensions and customizations"
+repo_url: "https://github.com/dotkernel/dot-twigrenderer"
 plugins:
   - search

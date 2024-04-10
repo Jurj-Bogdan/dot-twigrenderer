@@ -1,4 +1,4 @@
-# Using the form elements extension
+# Using the translation extension
 
 Dot-twigrenderer extends Twig with a filter called `trans` that parses translations in singular and plural forms.
 

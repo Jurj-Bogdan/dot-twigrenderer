@@ -1,7 +1,7 @@
 # Examples
 
 * [Authentication Extension](examples/example-authentication-ext.md)
-* [Authentication Extension](examples/example-authorization-ext.md)
+* [Authorization Extension](examples/example-authorization-ext.md)
 * [Date Extension](examples/example-date-ext.md)
 * [Flash Messenger Extension](examples/example-flash-messenger-ext.md)
 * [Form Elements Extension](examples/example-form-elements-ext.md)

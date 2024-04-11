@@ -11,7 +11,7 @@ nav:
       - Installation: v3/installation.md
       - Configuration: v3/configuration.md
       - Usage: v3/usage.md
-      - Examples: v3/examples.md
+      - "Examples Overview": v3/examples.md
       - Reference:
           - "Inject using a factory": v3/usage/factory.md
           - "Inject using dot-annotated-services": v3/usage/injection.md

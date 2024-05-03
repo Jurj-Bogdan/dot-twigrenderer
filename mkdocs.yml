@@ -1,0 +1,30 @@
+docs_dir: docs/book
+site_dir: docs/html
+extra:
+  project: Packages
+  current_version: v3
+  versions:
+    - v3
+nav:
+  - Home: index.md
+  - v3:
+      - Installation: v3/installation.md
+      - Configuration: v3/configuration.md
+      - Usage: v3/usage.md
+      - "Examples Overview": v3/examples.md
+      - Reference:
+          - "Inject using a factory": v3/usage/factory.md
+          - "Inject using dot-annotated-services": v3/usage/injection.md
+      - Examples:
+          - "Authentication Extension": v3/examples/example-authentication-ext.md
+          - "Authentication Extension": v3/examples/example-authorization-ext.md
+          - "Date Extension": v3/examples/example-date-ext.md
+          - "Flash Messenger Extension": v3/examples/example-flash-messenger-ext.md
+          - "Form Elements Extension": v3/examples/example-form-elements-ext.md
+          - "Navigation Extension": v3/examples/example-navigation-ext.md
+          - "Translation Extension": v3/examples/example-translation-ext.md
+site_name: dot-twigrenderer
+site_description: "DotKernel component providing twig extensions and customizations"
+repo_url: "https://github.com/dotkernel/dot-twigrenderer"
+plugins:
+  - search

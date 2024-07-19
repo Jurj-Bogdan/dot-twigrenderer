@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > dot-twigrenderer is a wrapper on top of [mezzio/mezzio-twigrenderer](https://github.com/mezzio/mezzio-twigrenderer)
 >
-> ![OSS Lifecycle](https://img.shields.io/osslifecycle/mezzio/mezzio-twigrenderer)
+> ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fmezzio%2Fmezzio-twigrenderer%2Fproperties%2Fvalues&query=%24%5B%3F(%40.property_name%3D%3D%22maintenance-mode%22)%5D.value&label=Maintenance%20Mode)
 
 DotKernel component providing twig extensions and customizations.
 

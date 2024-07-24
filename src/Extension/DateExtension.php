@@ -5,12 +5,10 @@ declare(strict_types=1);
 namespace Dot\Twig\Extension;
 
 use DateTimeInterface;
-use DateTimeZone;
 use Twig\Environment;
 use Twig\Extension\AbstractExtension;
+use Twig\Extension\CoreExtension;
 use Twig\TwigFilter;
-
-use function twig_date_converter;
 
 class DateExtension extends AbstractExtension
 {
@@ -37,11 +35,11 @@ class DateExtension extends AbstractExtension
     public function diff(
         Environment $env,
         string|DateTimeInterface|null $date,
-        string|DateTimeZone|null $now = null
+        string|DateTimeInterface|null $now = null
     ): string {
         // Convert both dates to DateTime instances.
-        $date = twig_date_converter($env, $date);
-        $now  = twig_date_converter($env, $now);
+        $date = $env->getExtension(CoreExtension::class)->convertDate($date);
+        $now  = $env->getExtension(CoreExtension::class)->convertDate($now);
 
         // Get the difference between the two DateTime objects.
         $diff = $date->diff($now);

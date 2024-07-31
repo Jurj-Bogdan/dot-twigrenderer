@@ -21,7 +21,7 @@
         "mezzio/mezzio-twigrenderer": "^2.15",
         "laminas/laminas-view": "^2.33",
         "laminas/laminas-authentication": "^2.16",
-        "dotkernel/dot-navigation": "^3.4.2",
+        "dotkernel/dot-navigation": "^3.5.1",
         "dotkernel/dot-flashmessenger": "^3.4.2",
         "laminas/laminas-form": "^3.19.1",
         "dotkernel/dot-authorization": "^3.4.1"

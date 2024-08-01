@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace DotTest\Twig\Extension;
 
+use DateTimeImmutable;
 use Dot\Twig\Extension\DateExtension;
 use Exception;
 use PHPUnit\Framework\MockObject\MockObject;
@@ -38,7 +39,16 @@ class DateExtensionTest extends TestCase
 
     public function testDiffWillReturnString(): void
     {
-        $this->assertIsString($this->extension->diff($this->env, "2023-07-31"));
+        $this->assertIsString($this->extension->diff($this->env, '2023-07-31'));
+        $this->assertIsString(
+            $this->extension->diff(
+                $this->env,
+                new DateTimeImmutable('yesterday'),
+                new DateTimeImmutable(),
+                'GMT+2'
+            )
+        );
+        $this->assertIsString($this->extension->diff($this->env, '802587600'));
     }
 
     public function testDiffWillReturnExceptionUnexpectedCharacters(): void
